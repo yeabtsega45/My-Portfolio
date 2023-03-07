@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
-      <Link></Link>
+    <div className="header">
+      <Link to="/">
+        <h1>Portfolio</h1>
+      </Link>
     </div>
   );
 }
