@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -22,6 +23,9 @@ function Navbar() {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+      <div className="nav-icon">
+        <FaBars size={20} style={{ color: "white" }} />
+      </div>
     </div>
   );
 }
