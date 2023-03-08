@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <div className="header">
       <Link to="/">
@@ -24,7 +27,11 @@ function Navbar() {
         </li>
       </ul>
       <div className="nav-icon">
-        <FaBars size={20} style={{ color: "white" }} />
+        {click ? (
+          <FaTimes size={20} style={{ color: "white" }} />
+        ) : (
+          <FaBars size={20} style={{ color: "white" }} />
+        )}
       </div>
     </div>
   );

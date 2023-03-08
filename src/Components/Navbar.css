@@ -37,4 +37,7 @@
     .nav-menu li a {
         font-size: 2rem;
     }
+    .nav-icon {
+        display: initial;
+    }
 }
