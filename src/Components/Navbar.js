@@ -26,7 +26,7 @@ function Navbar() {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-      <div className="nav-icon">
+      <div className="nav-icon" onClick={handleClick}>
         {click ? (
           <FaTimes size={20} style={{ color: "white" }} />
         ) : (
