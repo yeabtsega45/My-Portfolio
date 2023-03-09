@@ -9,6 +9,11 @@
     height: 90px;
     z-index: 10;
 }
+/* to give navbar color when scroll */
+.header-bg {
+    background-color: rgba(0, 0, 0, 0.85);
+    transition: 0.5s;
+}
 .nav-menu {
     display: flex;
 }
