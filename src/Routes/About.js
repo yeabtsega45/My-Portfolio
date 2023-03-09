@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading="ABOUT" text="I'm a friendly Front-End Developer." />
+      <HeroImg2 heading="ABOUT." text="I'm a friendly Front-End Developer." />
       <Footer />
     </div>
   );
