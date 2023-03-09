@@ -7,7 +7,7 @@ function Project() {
   return (
     <div>
       <Navbar />
-      <HeroImg2 />
+      <HeroImg2 heading="PROJECTS." text="Some of my most recent works" />
       <Footer />
     </div>
   );
