@@ -14,7 +14,12 @@ function WorkCard() {
           <div className="pro-details">
             <p>this is text</p>
             <div className="pro-buttons">
-              <NavLink></NavLink>
+              <NavLink to="url.com" className="btn">
+                View
+              </NavLink>
+              <NavLink to="url.com" className="btn">
+                Source
+              </NavLink>
             </div>
           </div>
         </div>
