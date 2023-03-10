@@ -13,7 +13,7 @@ function WorkCard() {
           <h2 className="project-title">project-title</h2>
           <div className="pro-details">
             <p>this is text</p>
-            <div className="pro-buttons">
+            <div className="pro-btns">
               <NavLink to="url.com" className="btn">
                 View
               </NavLink>
