@@ -1,6 +1,7 @@
 import React from "react";
 import "./WorkCard.css";
 import pro1 from "../assets/project1.png";
+import { NavLink } from "react-router-dom";
 
 function WorkCard() {
   return (
@@ -9,6 +10,13 @@ function WorkCard() {
       <div className="project-container">
         <div className="project-card">
           <img src={pro1} alt="project-img" />
+          <h2 className="project-title">project-title</h2>
+          <div className="pro-details">
+            <p>this is text</p>
+            <div className="pro-buttons">
+              <NavLink></NavLink>
+            </div>
+          </div>
         </div>
       </div>
     </div>
