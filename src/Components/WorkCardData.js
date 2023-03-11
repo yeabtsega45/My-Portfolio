@@ -9,4 +9,16 @@ const ProjectCardData = [
     text: "A broker website designed by react framework",
     view: "https://github.com/yeabtsega45/broker-site",
   },
+  {
+    imgsrc: pro2,
+    title: "Broker Website Design",
+    text: "A broker website designed by react framework",
+    view: "https://github.com/yeabtsega45/broker-site",
+  },
+  {
+    imgsrc: pro3,
+    title: "Broker Website Design",
+    text: "A broker website designed by react framework",
+    view: "https://github.com/yeabtsega45/broker-site",
+  },
 ];
