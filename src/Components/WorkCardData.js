@@ -22,3 +22,5 @@ const ProjectCardData = [
     view: "https://github.com/yeabtsega45/todo-list",
   },
 ];
+
+export default ProjectCardData;
