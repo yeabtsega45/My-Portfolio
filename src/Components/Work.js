@@ -7,7 +7,17 @@ function Work() {
     <div className="work-container">
       <h1 className="project-heading">Projects</h1>
       <div className="project-container">
-        <WorkCard />
+        {WorkCardData.map((val, ind) => {
+          return (
+            <WorkCard
+              key={ind}
+              imgscr={val.imgscr}
+              title={val.title}
+              text={val.text}
+              view={val.view}
+            />
+          );
+        })}
       </div>
     </div>
   );
