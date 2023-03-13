@@ -8,18 +8,21 @@ const ProjectCardData = [
     title: "Broker Website Design",
     text: "A broker website designed by react framework",
     view: "https://github.com/yeabtsega45/broker-site",
+    source: "https://github.com/yeabtsega45/broker-site",
   },
   {
     imgsrc: pro2,
     title: "Church Website Design",
     text: "A church website designed by react framework",
     view: "https://github.com/yeabtsega45/church-website",
+    source: "https://github.com/yeabtsega45/church-website",
   },
   {
     imgsrc: pro3,
     title: "Todo List Website Design",
     text: "A todo list website designed by react framework",
-    view: "https://github.com/yeabtsega45/todo-list",
+    view: "https://mellifluous-puppy-5d121c.netlify.app/",
+    source: "https://github.com/yeabtsega45/todo-list",
   },
 ];
 

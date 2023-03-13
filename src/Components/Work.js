@@ -12,10 +12,11 @@ function Work() {
           return (
             <WorkCard
               key={ind}
-              imgscr={val.imgscr}
+              imgsrc={val.imgsrc}
               title={val.title}
               text={val.text}
               view={val.view}
+              source={val.source}
             />
           );
         })}

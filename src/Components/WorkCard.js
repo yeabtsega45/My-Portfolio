@@ -13,7 +13,7 @@ function WorkCard(props) {
           <NavLink to={props.view} className="btn">
             View
           </NavLink>
-          <NavLink to={props.view} className="btn">
+          <NavLink to={props.source} className="btn">
             Source
           </NavLink>
         </div>

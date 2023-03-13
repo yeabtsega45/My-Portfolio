@@ -12,7 +12,8 @@ function Form() {
         <label>Subject</label>
         <input type="text" />
         <label>Message</label>
-        <input type="text" />
+        <textarea rows="10" placeholder="Type your message here" />
+        <button className="btn">Submit</button>
       </form>
     </div>
   );
