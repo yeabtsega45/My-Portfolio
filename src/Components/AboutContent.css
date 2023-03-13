@@ -26,3 +26,7 @@
     align-items: center;
     text-align: center;
 }
+.right .img {
+    max-width: 90%;
+    border: 1px solid #333;
+}

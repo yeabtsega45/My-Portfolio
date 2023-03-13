@@ -18,7 +18,7 @@ function AboutContent() {
         </Link>
       </div>
       <div className="right">
-        <div className="ing-container">
+        <div className="img-container">
           <div className="img-stack top">
             <img src={React1} className="img" alt="true" />
           </div>
