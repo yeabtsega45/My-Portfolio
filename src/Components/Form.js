@@ -4,7 +4,16 @@ import "./Form.css";
 function Form() {
   return (
     <div className="form">
-      <form></form>
+      <form>
+        <label>Your Name</label>
+        <input type="text" />
+        <label>Email</label>
+        <input type="email" />
+        <label>Subject</label>
+        <input type="text" />
+        <label>Message</label>
+        <input type="text" />
+      </form>
     </div>
   );
 }
