@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutContent.css";
+import { Link } from "react-router-dom";
 
 function AboutContent() {
   return (
@@ -10,6 +11,9 @@ function AboutContent() {
           I'm a react front-end developer. I create responsive secure websites
           for my clients.
         </p>
+        <Link to="/contact">
+          <button className="btn">Contact</button>
+        </Link>
       </div>
       <div className="right"></div>
     </div>
