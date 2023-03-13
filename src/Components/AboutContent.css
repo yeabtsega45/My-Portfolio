@@ -7,3 +7,12 @@
     flex-wrap: wrap;
     height: 100%;
 }
+.about .left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+.about .left p {
+    margin: 1.2rem 0;
+}
