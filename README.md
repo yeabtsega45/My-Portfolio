@@ -1,6 +1,6 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can visit the [Live Demo Website](https://yeabtsega-ecommerce.netlify.app).
+You can visit the [Live Demo Website](https://yeabtsega-portfolio.netlify.app).
 
 # Getting Started with Create React App
 
