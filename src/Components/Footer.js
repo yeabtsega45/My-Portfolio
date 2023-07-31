@@ -27,7 +27,7 @@ function Footer() {
                 size={20}
                 style={{ color: "white", marginRight: "2rem" }}
               />
-              0912704375
+              <a href="tel:+251912704375">+251912704375</a>
             </h4>
           </div>
           <div className="email">
@@ -36,7 +36,7 @@ function Footer() {
                 size={20}
                 style={{ color: "white", marginRight: "2rem" }}
               />
-              yabtsega2022@gmail.com
+              <a href="mailto:yabtsega2022@gmail.com">yabtsega2022@gmail.com</a>
             </h4>
           </div>
         </div>
@@ -51,14 +51,16 @@ function Footer() {
               size={30}
               style={{ color: "white", marginRight: "1rem" }}
             />
+            <a href="t.me/Yabtsega_man">
             <FaTelegram
               size={30}
               style={{ color: "white", marginRight: "1rem" }}
-            />
+            /></a>
+            <a href="https://www.instagram.com/yaba_kb/">
             <FaInstagram
               size={30}
               style={{ color: "white", marginRight: "1rem" }}
-            />
+            /></a>
           </div>
         </div>
       </div>
