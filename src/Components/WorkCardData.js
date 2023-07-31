@@ -50,4 +50,4 @@ const ProjectCardData = [
   },
 ];
 
-export default ProjectCardData; 
+export default ProjectCardData;
