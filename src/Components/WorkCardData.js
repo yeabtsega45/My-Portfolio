@@ -10,14 +10,14 @@ const ProjectCardData = [
     imgsrc: pro4,
     title: "Real Estate app",
     text: "A full stack website designed by MERN stack framework",
-    view: "https://github.com/yeabtsega45/Real-Estate-website--Full-stack-",
-    source: "https://yeabtsega-real-estate.netlify.app/",
+    view: "https://yeabtsega-real-estate.netlify.app/",
+    source: "https://github.com/yeabtsega45/Real-Estate-website--Full-stack-",
   },
   {
     imgsrc: pro1,
     title: "Broker Website Design",
-    text: "A broker website designed by react framework",
-    view: "https://github.com/yeabtsega45/broker-site",
+    text: "A full stack website designed by MERN stack framework",
+    view: "",
     source: "https://github.com/yeabtsega45/broker-site",
   },
   {
@@ -35,18 +35,18 @@ const ProjectCardData = [
     source: "https://github.com/yeabtsega45/Company-Landing-Page--React-app",
   },
   {
+    imgsrc: pro3,
+    title: "Admin Dashboard",
+    text: "Admin Dashboard designed by MERN stack framework",
+    view: "",
+    source: "https://github.com/yeabtsega45/Admin-Dashboard",
+  },
+  {
     imgsrc: pro2,
     title: "Church Website Design",
     text: "A church website designed by react framework",
-    view: "https://github.com/yeabtsega45/church-website",
+    view: "",
     source: "https://github.com/yeabtsega45/church-website",
-  },
-  {
-    imgsrc: pro3,
-    title: "Todo List Website Design",
-    text: "A todo list website designed by react framework",
-    view: "https://mellifluous-puppy-5d121c.netlify.app/",
-    source: "https://github.com/yeabtsega45/todo-list",
   },
 ];
 

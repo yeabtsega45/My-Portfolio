@@ -10,8 +10,8 @@ const HeroImg = () => {
         <img className="intro-img" src={IntroImg} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>HI, I'M A FREELANCER.</p>
-        <h1>Fullstack Developer.</h1>
+        <p>HI, I'M A FULLSTACK DEVELOPER.</p>
+        <h1>Yeabtsega Yeshidnber.</h1>
         <div>
           <Link to="/project" className="btn">
             PROJECTS
