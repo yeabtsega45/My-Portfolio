@@ -10,7 +10,7 @@ function AboutContent() {
       <div className="left">
         <h1>Who Am I?</h1>
         <p>
-          I'm a react front-end developer. I create responsive secure websites
+          I'm a fullstack developer. I create responsive secure websites
           for my clients.
         </p>
         <Link to="/contact">
