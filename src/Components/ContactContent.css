@@ -1,6 +1,11 @@
 .contact {
-    text-align: center;
-    margin: auto;
-    padding: 1rem;
+    margin: 3rem auto;
     max-width: 350px;
+}
+.contact a {
+    text-decoration: underline;
+}
+
+.contact a:hover {
+    color: lightblue;
 }
