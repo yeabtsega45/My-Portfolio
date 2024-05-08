@@ -4,8 +4,16 @@ import pro3 from "../assets/project3.png";
 import pro4 from "../assets/project4.png";
 import pro5 from "../assets/project5.png";
 import pro6 from "../assets/project6.png";
+import pro7 from "../assets/Ezra Seminary.png";
 
 const ProjectCardData = [
+  {
+    imgsrc: pro7,
+    title: "EZRA Seminary",
+    text: "A comprehensive E-learning platform built with MERN stack tech.",
+    view: "https://ezraseminary.org/",
+    source: "https://github.com/yeabtsega45/Ezera_Seminary__Frontend",
+  },
   {
     imgsrc: pro4,
     title: "Real Estate app",
