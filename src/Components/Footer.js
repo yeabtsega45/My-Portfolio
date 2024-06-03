@@ -4,6 +4,7 @@ import {
   FaGithub,
   FaHome,
   FaInstagram,
+  FaLinkedin,
   FaMailBulk,
   FaPhone,
   FaTelegram,
@@ -39,6 +40,15 @@ function Footer() {
               <a href="mailto:yabtsega2022@gmail.com">yabtsega2022@gmail.com</a>
             </h4>
           </div>
+          <div className="github">
+            <h4>
+              <FaGithub
+                size={20}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+              <a href="https://github.com/yeabtsega45">yeabtsega45</a>
+            </h4>
+          </div>
         </div>
         <div className="right">
           <h4>About me</h4>
@@ -48,13 +58,16 @@ function Footer() {
           </p>
           <div className="social">
             <a href="https://github.com/yeabtsega45">
-              <FaGithub size={30} style={{ marginRight: "1rem" }} />
+              <FaGithub size={30} />
             </a>
-            <a href="t.me/Yabtsega_yg">
-              <FaTelegram size={30} style={{ marginRight: "1rem" }} />
+            <a href="https://www.linkedin.com/in/yeabtsega-yeshidnber-7a9618257/">
+              <FaLinkedin size={30} />
+            </a>
+            <a href="https://www.t.me/Yabtsega_yg">
+              <FaTelegram size={30} />
             </a>
             <a href="https://www.instagram.com/yaba_kb/">
-              <FaInstagram size={30} style={{ marginRight: "1rem" }} />
+              <FaInstagram size={30} />
             </a>
           </div>
         </div>

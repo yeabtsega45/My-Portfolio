@@ -10,7 +10,7 @@ function Contact() {
     <div>
       <Navbar />
       <HeroImg2
-        heading="CONTACT."
+        heading="Contact me."
         text="I'm up for any new job options. I can be reached using the information below."
       />
       {/* <ContactContent /> */}
