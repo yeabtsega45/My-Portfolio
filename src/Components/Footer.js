@@ -48,22 +48,13 @@ function Footer() {
           </p>
           <div className="social">
             <a href="https://github.com/yeabtsega45">
-              <FaGithub
-                size={30}
-                style={{ color: "white", marginRight: "1rem" }}
-              />
+              <FaGithub size={30} style={{ marginRight: "1rem" }} />
             </a>
-            <a href="t.me/Yabtsega_man">
-              <FaTelegram
-                size={30}
-                style={{ color: "white", marginRight: "1rem" }}
-              />
+            <a href="t.me/Yabtsega_yg">
+              <FaTelegram size={30} style={{ marginRight: "1rem" }} />
             </a>
             <a href="https://www.instagram.com/yaba_kb/">
-              <FaInstagram
-                size={30}
-                style={{ color: "white", marginRight: "1rem" }}
-              />
+              <FaInstagram size={30} style={{ marginRight: "1rem" }} />
             </a>
           </div>
         </div>

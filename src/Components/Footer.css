@@ -41,12 +41,20 @@
     margin-top: 1rem;
 }
 
+.social a{
+    color: white;
+}
+
+.social a:hover{
+    color: rgb(248, 217, 15);
+}
+
 .left a {
     text-decoration: underline;
 }
 
 .left a:hover {
-    color: lightblue;
+    color: rgb(248, 217, 15);
 }
 
 @media screen and (max-width: 640px) {
