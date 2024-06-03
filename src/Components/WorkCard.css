@@ -13,9 +13,16 @@
 .project-card {
     background: #1a1919;
     padding: 1.2rem 1rem;
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out;
 }
+.project-card:hover {
+    transform: scale(1.1);
+  }
 .project-card img {
     width: 100%;
+    /* border-top-left-radius: 16px;
+    border-top-right-radius: 16px; */
 }
 .project-title {
     color: white;

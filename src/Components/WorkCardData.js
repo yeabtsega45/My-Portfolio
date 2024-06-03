@@ -5,6 +5,7 @@ import pro4 from "../assets/project4.png";
 import pro5 from "../assets/project5.png";
 import pro6 from "../assets/project6.png";
 import pro7 from "../assets/Ezra Seminary.png";
+import pro8 from "../assets/smooth-pictures.png";
 
 const ProjectCardData = [
   {
@@ -22,11 +23,32 @@ const ProjectCardData = [
     source: "https://github.com/yeabtsega45/Biruk-Broker-Works",
   },
   {
+    imgsrc: pro4,
+    title: "Prime Estates",
+    text: "A Real Estate website built with MERN stack.",
+    view: "https://yeabtsega-real-estate.netlify.app/",
+    source: "https://github.com/yeabtsega45/Prime-Estates",
+  },
+  {
     imgsrc: pro2,
     title: "KSDA",
     text: "A church website built using MERN stack.",
     view: "https://official-ksda-church.netlify.app/",
     source: "https://github.com/yeabtsega45/KSDA",
+  },
+  {
+    imgsrc: pro6,
+    title: "Swift",
+    text: "A company landing web page built using React and tailwind.",
+    view: "https://yeabtsega-company-landing-page.netlify.app/",
+    source: "https://github.com/yeabtsega45/Swift-Page",
+  },
+  {
+    imgsrc: pro8,
+    title: "Smooth Pictures",
+    text: "A photography website built with Next.js and Tailwind CSS.",
+    view: "https://smooth-pictures.netlify.app/",
+    source: "https://github.com/yeabtsega45/Smooth-Pictures",
   },
   {
     imgsrc: pro5,
@@ -36,25 +58,11 @@ const ProjectCardData = [
     source: "https://github.com/yeabtsega45/Commerce-Hub",
   },
   {
-    imgsrc: pro6,
-    title: "Swift Page",
-    text: "A company landing web page built using React and tailwind.",
-    view: "https://yeabtsega-company-landing-page.netlify.app/",
-    source: "https://github.com/yeabtsega45/Swift-Page",
-  },
-  {
     imgsrc: pro3,
     title: "Admin Sphere",
     text: "Admin Dashboard built with MERN stack.",
     view: "https://yeabtsega-admin-dashboard.netlify.app/",
     source: "https://github.com/yeabtsega45/Admin-Sphere",
-  },
-  {
-    imgsrc: pro4,
-    title: "Prime Estates",
-    text: "A Real Estate website built with MERN stack.",
-    view: "https://yeabtsega-real-estate.netlify.app/",
-    source: "https://github.com/yeabtsega45/Prime-Estates",
   },
 ];
 
