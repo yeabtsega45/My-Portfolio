@@ -13,7 +13,7 @@ const ProjectCardData = [
     title: "EZRA Seminary",
     text: "A comprehensive E-learning platform built with MERN stack tech.",
     view: "https://ezraseminary.org/",
-    source: "https://github.com/EzraSeminary/Ezera_Seminary__Frontend",
+    source: "https://github.com/EzraSeminary?tab=repositories",
   },
   {
     imgsrc: pro1,
