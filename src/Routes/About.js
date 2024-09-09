@@ -13,8 +13,8 @@ function About() {
         heading="About me."
         text="I am a multi-skilled Full-Stack Developer from Ethiopia with 2 years of hands-on experience in developing and maintaining web apps."
       />
-      <AboutContent />
       <Education />
+      <AboutContent />
       <Footer />
     </div>
   );

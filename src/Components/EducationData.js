@@ -1,23 +1,19 @@
 export const EducationData = [
   {
     degree: "Bachelor of Science in Computer Science",
-    institution: "University of Technology",
+    institution: "Kotebe Metropolitan University",
     year: "2018 - 2022",
-    description:
-      "Focused on web development, algorithms, and data structures. Graduated with honors.",
+    description: "Focused on web development, algorithms, and data structures.",
+    certificate:
+      "https://drive.google.com/file/d/1lBinQGVywbNaBjRh4hReSn2-xBztvcHO/view?usp=drive_link",
   },
   {
-    degree: "Full Stack Web Development Bootcamp",
-    institution: "CodeCamp Academy",
-    year: "2022",
+    degree: "Programming Fundamentals Bootcamp",
+    institution: "Udacity",
+    year: "2024",
     description:
-      "Intensive 12-week program covering modern web technologies including React, Node.js, and MongoDB.",
-  },
-  {
-    degree: "High School Diploma",
-    institution: "Tech High School",
-    year: "2014 - 2018",
-    description:
-      "Participated in various coding competitions and led the school's computer science club.",
+      "8-week program covering modern web technologies including Javascript, DOM manipulation, HTML and CSS.",
+    certificate:
+      "https://drive.google.com/file/d/1C5agIB3Hdyaz32ncO6L-tlUW8l2ef8U4/view?usp=drive_link",
   },
 ];

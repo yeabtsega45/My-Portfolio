@@ -13,6 +13,14 @@ function Education() {
             <h3 className="education-institution">{edu.institution}</h3>
             <p className="education-year">{edu.year}</p>
             <p className="education-description">{edu.description}</p>
+            <a
+              href={edu.certificate}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="certificate-link"
+            >
+              View Certificate
+            </a>
           </div>
         ))}
       </div>
