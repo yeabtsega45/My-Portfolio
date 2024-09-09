@@ -8,7 +8,10 @@ function Experience() {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading="EXPERIENCE." text="Some of my most recent works" />
+      <HeroImg2
+        heading="EXPERIENCE."
+        text="Some of my most recent work experience."
+      />
       <Work />
       <Footer />
     </div>
