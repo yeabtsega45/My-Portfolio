@@ -28,10 +28,19 @@
     color: white;
     padding: 1rem 0;
 }
+.pro-details {
+    display: flex;
+    flex-direction: column;
+}
 .pro-details p {
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
+}
+.pro-details span {
+    font-size: 0.8rem;
+    text-align: justify;
+    color: white;
 }
 .pro-btns {
     display: flex;

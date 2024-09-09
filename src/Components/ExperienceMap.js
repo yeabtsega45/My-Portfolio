@@ -14,7 +14,11 @@ function ExperienceMap() {
               key={ind}
               imgsrc={val.imgsrc}
               title={val.title}
+              company={val.company}
               text={val.text}
+              role={val.role}
+              skills={val.skills}
+              date={val.date}
               view={val.view}
               source={val.source}
             />

@@ -8,7 +8,11 @@ function WorkCard(props) {
       <img src={props.imgsrc} alt="project-img" />
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
+        <span>{props.company}</span>
         <p>{props.text}</p>
+        <span>{props.role}</span>
+        <span>{props.skills}</span>
+        <span>{props.date}</span>
         <div className="pro-btns">
           <NavLink to={props.view} className="btn">
             View
@@ -22,4 +26,4 @@ function WorkCard(props) {
   );
 }
 
-export default WorkCard; 
+export default WorkCard;
