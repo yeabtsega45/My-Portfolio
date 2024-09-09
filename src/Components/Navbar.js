@@ -29,7 +29,10 @@ function Navbar() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/project">Project</NavLink>
+          <NavLink to="/project">Projects</NavLink>
+        </li>
+        <li>
+          <NavLink to="/experience">Experience</NavLink>
         </li>
         <li>
           <NavLink to="/about">About</NavLink>
