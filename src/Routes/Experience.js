@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import HeroImg2 from "../Components/HeroImg2";
-import Work from "../Components/Work";
+import ExperienceMap from "../Components/ExperienceMap";
 
 function Experience() {
   return (
@@ -12,7 +12,7 @@ function Experience() {
         heading="EXPERIENCE."
         text="Some of my most recent work experience."
       />
-      <Work />
+      <ExperienceMap />
       <Footer />
     </div>
   );
