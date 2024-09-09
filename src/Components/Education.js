@@ -1,11 +1,12 @@
 import React from "react";
+import { EducationData } from "./EducationData";
 
 function Education() {
   return (
     <div className="education-container">
       <h1 className="education-title">Education</h1>
       <div className="education-list">
-        {educationData.map((edu, index) => (
+        {EducationData.map((edu, index) => (
           <div key={index} className="education-item">
             <h2 className="education-degree">{edu.degree}</h2>
             <h3 className="education-institution">{edu.institution}</h3>
