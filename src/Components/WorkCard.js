@@ -8,11 +8,36 @@ function WorkCard(props) {
       <img src={props.imgsrc} alt="project-img" />
       <h2 className="project-title">{props.title}</h2>
       <div className="pro-details">
-        <span>{props.company}</span>
         <p>{props.text}</p>
-        <span>{props.role}</span>
-        <span>{props.skills}</span>
-        <span>{props.date}</span>
+
+        {props.company && (
+          <div>
+            <span>Client/Company: </span>
+            {props.company}
+          </div>
+        )}
+
+        {props.role && (
+          <div>
+            <span>Role/Contribution: </span>
+            {props.role}
+          </div>
+        )}
+
+        {props.skills && (
+          <div>
+            <span>Technologies Used: </span>
+            {props.skills}
+          </div>
+        )}
+
+        {props.date && (
+          <div>
+            <span>Completion Date: </span>
+            {props.date}
+          </div>
+        )}
+
         <div className="pro-btns">
           <NavLink to={props.view} className="btn">
             View

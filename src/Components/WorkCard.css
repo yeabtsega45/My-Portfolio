@@ -26,21 +26,27 @@
 }
 .project-title {
     color: white;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
 }
 .pro-details {
     display: flex;
     flex-direction: column;
 }
 .pro-details p {
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
     text-align: justify;
 }
-.pro-details span {
-    font-size: 0.8rem;
+.pro-details div {
+    font-size: 0.9rem;
     text-align: justify;
     color: white;
+}
+.pro-details span {
+    font-weight: bold;
+    color: rgb(248, 217, 15);
+    margin-right: 5px;
 }
 .pro-btns {
     display: flex;
