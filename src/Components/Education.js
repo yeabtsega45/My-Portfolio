@@ -5,7 +5,7 @@ import "./Education.css";
 function Education() {
   return (
     <div className="education-container">
-      <h1 className="education-title">Education</h1>
+      <h1 className="education-title">Educational Background</h1>
       <div className="education-list">
         {EducationData.map((edu, index) => (
           <div key={index} className="education-item">
