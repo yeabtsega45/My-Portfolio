@@ -1,5 +1,6 @@
 import React from "react";
 import { EducationData } from "./EducationData";
+import "./Education.css";
 
 function Education() {
   return (
