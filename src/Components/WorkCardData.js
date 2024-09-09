@@ -6,6 +6,7 @@ import pro5 from "../assets/project5.png";
 import pro6 from "../assets/project6.png";
 import pro7 from "../assets/Ezra Seminary.png";
 import pro8 from "../assets/smooth-pictures.png";
+import pro9 from "../assets/BookLoop.png";
 
 const ProjectCardData = [
   {
@@ -14,6 +15,13 @@ const ProjectCardData = [
     text: "A comprehensive E-learning platform built with MERN stack tech.",
     view: "https://ezraseminary.org/",
     source: "https://github.com/EzraSeminary?tab=repositories",
+  },
+  {
+    imgsrc: pro9,
+    title: "BookLoop",
+    text: "A book rental platform leveraging the MERN stack to facilitate the renting and management of books.",
+    view: "https://bookrent.netlify.app/",
+    source: "https://github.com/yeabtsega45/BookLoop",
   },
   {
     imgsrc: pro1,
