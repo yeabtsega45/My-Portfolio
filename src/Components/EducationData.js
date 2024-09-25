@@ -1,7 +1,7 @@
 export const EducationData = [
   {
     degree: "Bachelor of Science in Computer Science",
-    institution: "Kotebe Metropolitan University",
+    institution: "Kotebe University of Education",
     year: "2018 - 2022",
     description: "Focused on web development, algorithms, and data structures.",
     certificate:
@@ -14,6 +14,6 @@ export const EducationData = [
     description:
       "8-week program covering modern web technologies including Javascript, DOM manipulation, HTML and CSS.",
     certificate:
-      "https://drive.google.com/file/d/1C5agIB3Hdyaz32ncO6L-tlUW8l2ef8U4/view?usp=drive_link",
+      "https://www.udacity.com/certificate/e/31fd46ac-5fd3-11ef-abaf-8353d7344e2f",
   },
 ];
