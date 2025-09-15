@@ -29,13 +29,13 @@ function Navbar() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/project">Projects</NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
           <NavLink to="/experience">Experience</NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/project">Projects</NavLink>
         </li>
         <li>
           <NavLink to="/contact">Contact</NavLink>

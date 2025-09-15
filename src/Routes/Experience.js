@@ -10,7 +10,7 @@ function Experience() {
       <Navbar />
       <HeroImg2
         heading="EXPERIENCE."
-        text="Some of my most recent work experience."
+        text="Some of my recent work experiences."
       />
       <ExperienceMap />
       <Footer />

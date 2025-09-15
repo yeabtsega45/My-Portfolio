@@ -1,40 +1,49 @@
-import pro3 from "../assets/Ezra Seminary.png";
-import pro2 from "../assets/Kerchanshe.png";
-import pro4 from "../assets/Revo.png";
+import pro1 from "../assets/Ezra-logo.png";
+import pro2 from "../assets/Berry-logo.avif";
+import pro3 from "../assets/Revo_logo.png";
 
 const ExperienceData = [
   {
-    imgsrc: pro4,
+    imgsrc: pro3,
     title: "Revo Solutions",
     company: "Revo Solutions",
-    text: "Developed and maintained responsive, full-stack websites for various clients.",
+    text: "Developed and maintained responsive full-stack websites with React, Node.js, Express, and MySQL. Deployed and optimized projects on cPanel with seamless form integrations.",
     role: "Full-stack Developer",
-    skills: "React, Node, Express, MySQL, cPanel",
+    skills: "React, Node.js, Express, MySQL, cPanel",
     date: "Jan 2025 - Present",
-    view: "https://revosolutionplc.com/",
-    source: "https://github.com/yeabtsega45/Revo-Solutions",
+    employmentType: "Full-time",
+    locationType: "Onsite",
+    location: "Addis Ababa, Ethiopia",
+    website: "https://revosolutionplc.com/",
+    github: "https://github.com/Revo-Solutions-PLC",
   },
   {
     imgsrc: pro2,
-    title: "Kerchanshe Coffee",
+    title: "Berry Advertising",
     company: "Berry Advertising",
-    text: "A coffee export website built using Next.js for the frontend and Strapi as the backend.",
-    role: "Full-stack developer",
-    skills: "Next.js, Strapi, TypeScript, SQLite, Tailwind CSS",
-    date: "Dec 2024",
-    view: "https://kerchanshecoffee.com/",
-    source: "",
+    text: "Built a Next.js-based frontend optimized for SEO and performance. Integrated Strapi CMS, multilingual support with i18n, and an interactive chatbot for user engagement.",
+    role: "Full-stack Developer",
+    skills: "Next.js, Strapi, React-Chatbot-Kit, i18n, Tailwind CSS",
+    date: "Sep 2024 – Dec 2024",
+    employmentType: "Contract",
+    locationType: "Remote",
+    location: "Addis Ababa, Ethiopia",
+    website: "https://www.berryethiopia.com/",
+    github: "",
   },
   {
-    imgsrc: pro3,
+    imgsrc: pro1,
     title: "EZRA Seminary",
     company: "EZRA Seminary",
-    text: "A comprehensive E-learning platform built with MERN stack tech.",
-    role: "Full-stack developer",
-    skills: "React, Node, Express, MongoDB",
-    date: "Aug 2024",
-    view: "https://ezraseminary.org/",
-    source: "https://github.com/EzraSeminary?tab=repositories",
+    text: "Developed a scalable E-learning platform with secure authentication, role-based access, dynamic course management, and multimedia delivery. Enhanced user experience with Redux, Tailwind CSS, and Cypress testing.",
+    role: "Full-stack Developer",
+    skills: "React, Node.js, Express, MongoDB, Redux, Tailwind CSS, Cypress",
+    date: "Sep 2023 – Aug 2024",
+    employmentType: "Full-time",
+    locationType: "Remote",
+    location: "Addis Ababa, Ethiopia",
+    website: "https://ezraseminary.org/",
+    github: "https://github.com/EzraSeminary",
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./WorkCard.css";
-import WorkCard from "./WorkCard";
+import ExperienceCard from "./ExperienceCard";
 import ExperienceData from "./ExperienceData";
 
 function ExperienceMap() {
@@ -10,7 +10,7 @@ function ExperienceMap() {
       <div className="project-container">
         {ExperienceData.map((val, ind) => {
           return (
-            <WorkCard
+            <ExperienceCard
               key={ind}
               imgsrc={val.imgsrc}
               title={val.title}
@@ -19,8 +19,11 @@ function ExperienceMap() {
               role={val.role}
               skills={val.skills}
               date={val.date}
-              view={val.view}
-              source={val.source}
+              employmentType={val.employmentType}
+              locationType={val.locationType}
+              location={val.location}
+              website={val.website}
+              github={val.github}
             />
           );
         })}

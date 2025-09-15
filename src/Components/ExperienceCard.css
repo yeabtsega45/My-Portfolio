@@ -1,0 +1,81 @@
+.work-card {
+  background: #1a1919;
+  padding: 1.5rem 1.2rem;
+  border-radius: 16px;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #333;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.work-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  border-color: #f8d90f;
+}
+.work-card img {
+  height: 120px;
+  width: auto;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+.work-title {
+  color: white;
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.work-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.work-details p {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.5;
+  color: #e0e0e0;
+}
+.work-details div {
+  font-size: 0.9rem;
+  text-align: left;
+  color: white;
+  margin-bottom: 0.4rem;
+  padding: 0.2rem 0;
+}
+.work-details span {
+  font-weight: bold;
+  color: #f8d90f;
+  margin-right: 8px;
+  display: inline-block;
+  min-width: 120px;
+}
+.work-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 0.5rem 0;
+  margin-top: auto;
+  gap: 0.5rem;
+}
+.work-btns .btn {
+  padding: 0.6rem 1.2rem;
+  background: #f8d90f;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-align: center;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+.work-btns .btn:hover {
+  background: #e6c20a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(248, 217, 15, 0.3);
+}
