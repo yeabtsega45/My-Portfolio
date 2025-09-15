@@ -54,7 +54,7 @@ function Footer() {
           <h4>About me</h4>
           <p>
             This is me Yeabtsega Yeshidnber. I enjoy discussing new projects and
-            design challenges.
+            coding challenges.
           </p>
           <div className="social">
             <a href="https://github.com/yeabtsega45">

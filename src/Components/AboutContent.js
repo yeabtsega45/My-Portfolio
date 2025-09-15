@@ -8,11 +8,18 @@ function AboutContent() {
   return (
     <div className="about">
       <div className="left">
-        <h1>Who Am I?</h1>
-        <p>
-          I'm a fullstack developer. I create responsive secure websites
-          for my clients.
-        </p>
+        <h1>Skills</h1>
+        <div>
+          <p>
+            <b>Languages: </b>JavaScript, Typescript, HTML/CSS, SQL.
+          </p>
+          <p>
+            <b>Tools and Frameworks: </b>
+            NodeJS, MongoDB, React, Express, NextJS, Vite, MySQL, Graphql,
+            Tailwind, Bootstrap, Git, GitHub, Firebase, Netlify, Heroku, Render,
+            cPanel, Redux Toolkit, RTKQuery, Web3forms, Cypress.
+          </p>
+        </div>
         <Link to="/contact">
           <button className="btn">Contact</button>
         </Link>

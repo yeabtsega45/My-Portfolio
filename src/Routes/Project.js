@@ -9,7 +9,7 @@ function Project() {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading="PROJECTS." text="Some of my most recent projects." />
+      <HeroImg2 heading="PROJECTS." text="Some of my recent projects." />
       <Work />
       {/* <PricingCard /> */}
       <Footer />

@@ -10,7 +10,11 @@ const HeroImg = () => {
         <img className="intro-img" src={IntroImg} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>HI, I'M A FULLSTACK DEVELOPER.</p>
+        <p>
+          Hi, I'm an experienced Full-stack Developer and QA tester with 3 years
+          of hands-on experience in developing, maintaining and testing robust
+          web apps.
+        </p>
         <h1>Yeabtsega Yeshidnber.</h1>
         <div>
           <Link to="/project" className="btn">
