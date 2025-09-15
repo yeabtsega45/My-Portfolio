@@ -1,6 +1,5 @@
 import pro1 from "../assets/BBK.png";
 import pro2 from "../assets/ksda.png";
-import pro3 from "../assets/project3.png";
 import pro4 from "../assets/project4.png";
 import pro5 from "../assets/Commerce Hub.png";
 import pro6 from "../assets/project6.png";
@@ -8,6 +7,10 @@ import pro7 from "../assets/Ezra Seminary.png";
 import pro8 from "../assets/smooth-pictures.png";
 import pro9 from "../assets/BookLoop.png";
 import pro10 from "../assets/Kerchanshe.png";
+import pro11 from "../assets/Revo.png";
+import pro12 from "../assets/DNA.png";
+import pro13 from "../assets/Logic TrueCare.png";
+import pro14 from "../assets/T&T Security Services.png";
 
 const ProjectCardData = [
   {
@@ -23,6 +26,34 @@ const ProjectCardData = [
     text: "A comprehensive E-learning platform built with MERN stack tech.",
     view: "https://ezraseminary.org/",
     source: "https://github.com/EzraSeminary?tab=repositories",
+  },
+  {
+    imgsrc: pro11,
+    title: "Revo Solutions",
+    text: "A dynamic portfolio website built with React, Node.js, Express, and MySQL.",
+    view: "https://revosolutionplc.com/",
+    source: "https://github.com/yeabtsega45/Revo-Solutions",
+  },
+  {
+    imgsrc: pro12,
+    title: "DNA Lions Accounting Firm",
+    text: "A modern accounting firm website built with React and integrated with Web3forms, deployed on cPanel.",
+    view: "https://dnalions.com/",
+    source: "https://github.com/yeabtsega45/DNA-Lions",
+  },
+  {
+    imgsrc: pro13,
+    title: "Logic TrueCare",
+    text: "A responsive service listing website built with React and integrated with Web3forms.",
+    view: "https://logictruecare.com/",
+    source: "",
+  },
+  {
+    imgsrc: pro14,
+    title: "T and T Security Services LLC",
+    text: "A security services website built with React and deployed on cPanel, featuring optimized image rendering.",
+    view: "https://www.ttsecurityservicesllc.com/",
+    source: "https://github.com/yeabtsega45/T-and-T-Security-Services-LLC",
   },
   {
     imgsrc: pro9,
@@ -72,13 +103,6 @@ const ProjectCardData = [
     text: "A photography website built with Next.js and Tailwind CSS.",
     view: "https://smooth-pictures.netlify.app/",
     source: "https://github.com/yeabtsega45/Smooth-Pictures",
-  },
-  {
-    imgsrc: pro3,
-    title: "Admin Sphere",
-    text: "Admin Dashboard built with MERN stack.",
-    view: "https://yeabtsega-admin-dashboard.netlify.app/",
-    source: "https://github.com/yeabtsega45/Admin-Sphere",
   },
 ];
 
