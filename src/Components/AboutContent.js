@@ -11,13 +11,30 @@ function AboutContent() {
         <h1>Skills</h1>
         <div>
           <p>
-            <b>Languages: </b>JavaScript, Typescript, HTML/CSS, SQL.
+            <b>Languages: </b>JavaScript, TypeScript, HTML5, CSS3, SQL.
           </p>
           <p>
-            <b>Tools and Frameworks: </b>
-            NodeJS, MongoDB, React, Express, NextJS, Vite, MySQL, Graphql,
-            Tailwind, Bootstrap, Git, GitHub, Firebase, Netlify, Heroku, Render,
-            cPanel, Redux Toolkit, RTKQuery, Web3forms, Cypress.
+            <b>Front-End: </b>
+            React, Next.js, Vite, Redux Toolkit, RTK Query, Tailwind CSS,
+            jQuery, Bootstrap, Web3forms.
+          </p>
+          <p>
+            <b>Back-End: </b>
+            NodeJS, Express, MongoDB, Strapi, MySQL, PostgreSQL, Graphql.
+          </p>
+          <p>
+            <b>Testing: </b>
+            Cypress, Postman, k6, Lighthouse, Linear, Trello.
+          </p>
+          <p>
+            <b>Tools & Methods: </b>
+            Git, GitHub, Netlify, Render, Heroku, cPanel, Mobile/Responsive
+            Development, Chrome Dev Tools.
+          </p>
+          <p>
+            <b>Professional: </b>
+            Remote Pair-Programming, Teamwork, Quick learner, Adaptable to new
+            tech, Mentoring.
           </p>
         </div>
         <Link to="/contact">

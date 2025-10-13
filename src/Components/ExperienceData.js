@@ -35,9 +35,10 @@ const ExperienceData = [
     imgsrc: pro1,
     title: "EZRA Seminary",
     company: "EZRA Seminary",
-    text: "Developed a scalable E-learning platform with secure authentication, role-based access, dynamic course management, and multimedia delivery. Enhanced user experience with Redux, Tailwind CSS, and Cypress testing.",
-    role: "Full-stack Developer",
-    skills: "React, Node.js, Express, MongoDB, Redux, Tailwind CSS, Cypress",
+    text: "Developed a scalable E-learning platform with secure authentication, role-based access, dynamic course management, and multimedia delivery. Enhanced user experience with Redux and Tailwind CSS. Also implemented end-to-end testing with Cypress, conducted UI/UX Testing, Manual & Automated Testing, Test Case Design & Documentation, API Testing, and managed Bug Tracking & Reporting.",
+    role: "Full-stack Developer & QA Tester",
+    skills:
+      "React, Node.js, Express, MongoDB, Redux, Tailwind CSS, Cypress, Postman, k6, Lighthouse, Linear, Trello",
     date: "Sep 2023 – Aug 2024",
     employmentType: "Full-time",
     locationType: "Remote",
