@@ -1,8 +1,23 @@
 import pro1 from "../assets/Ezra-logo.png";
 import pro2 from "../assets/Berry-logo.avif";
 import pro3 from "../assets/Revo_logo.png";
+import pro4 from "../assets/belimuno.png";
 
 const ExperienceData = [
+  {
+    imgsrc: pro4,
+    title: "BELIMUNO HR Outsourcing Solution",
+    company: "BELIMUNO HR Outsourcing Solution",
+    text: "As a Full Stack Developer at BELIMUNO HR Outsourcing Solution, I contributed to the development of a dynamic web application, leveraging Node.js for the backend and Next.js for creating interactive and user-friendly interfaces.",
+    role: "Full-stack Developer",
+    skills: "Next.js, Node.js, TypeScript, Express, MongoDB, Tailwind CSS",
+    date: "Jul 2025 - Nov 2025",
+    employmentType: "Freelance",
+    locationType: "Remote",
+    location: "Addis Ababa, Ethiopia",
+    website: "https://belimunojobs.com/",
+    github: "",
+  },
   {
     imgsrc: pro3,
     title: "Revo Solutions",
@@ -10,7 +25,7 @@ const ExperienceData = [
     text: "Developed and maintained responsive full-stack websites with React, Node.js, Express, and MySQL. Deployed and optimized projects on cPanel with seamless form integrations.",
     role: "Full-stack Developer",
     skills: "React, Node.js, Express, MySQL, cPanel",
-    date: "Jan 2025 - Present",
+    date: "Jan 2025 - May 2025",
     employmentType: "Full-time",
     locationType: "Onsite",
     location: "Addis Ababa, Ethiopia",
@@ -35,7 +50,7 @@ const ExperienceData = [
     imgsrc: pro1,
     title: "EZRA Seminary",
     company: "EZRA Seminary",
-    text: "Developed a scalable E-learning platform with secure authentication, role-based access, dynamic course management, and multimedia delivery. Enhanced user experience with Redux and Tailwind CSS. Also implemented end-to-end testing with Cypress, conducted UI/UX Testing, Manual & Automated Testing, Test Case Design & Documentation, API Testing, and managed Bug Tracking & Reporting.",
+    text: "I led the development of a dynamic web application, utilizing Node.js for scalable solutions and React for intuitive user interfaces. My contributions enhanced performance, maintained code quality, and fostered a collaborative team environment, driving project success. I also implemented software QA testing to ensure reliability of UI components and a consistent user experience.",
     role: "Full-stack Developer & QA Tester",
     skills:
       "React, Node.js, Express, MongoDB, Redux, Tailwind CSS, Cypress, Postman, k6, Lighthouse, Linear, Trello",

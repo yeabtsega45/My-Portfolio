@@ -11,6 +11,7 @@ import pro11 from "../assets/Revo.png";
 import pro12 from "../assets/DNA.png";
 import pro13 from "../assets/Logic TrueCare.png";
 import pro14 from "../assets/T&T Security Services.png";
+import pro15 from "../assets/Belimuno Jobs.png";
 
 const ProjectCardData = [
   {
@@ -18,6 +19,13 @@ const ProjectCardData = [
     title: "Kerchanshe Coffee",
     text: "A coffee export website built using Next.js for the frontend and Strapi as the backend.",
     view: "https://kerchanshecoffee.com/",
+    source: "",
+  },
+  {
+    imgsrc: pro15,
+    title: "Belimuno Jobs",
+    text: "A job portal website designed to connect job seekers with employers.",
+    view: "https://belimunojobs.com/",
     source: "",
   },
   {
