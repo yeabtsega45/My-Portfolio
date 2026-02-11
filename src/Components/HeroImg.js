@@ -11,9 +11,9 @@ const HeroImg = () => {
       </div>
       <div className="content">
         <p>
-          Hi, I'm an experienced Full-stack Developer and QA tester with 3 years
+          Hi, I'm an experienced Full-stack Developer and QA Engineer with 3 years
           of hands-on experience in developing, maintaining and testing robust
-          web apps.
+          web & mobile apps.
         </p>
         <h1>Yeabtsega Yeshidnber.</h1>
         <div>

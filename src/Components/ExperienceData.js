@@ -50,10 +50,10 @@ const ExperienceData = [
     imgsrc: pro1,
     title: "EZRA Seminary",
     company: "EZRA Seminary",
-    text: "I led the development of a dynamic web application, utilizing Node.js for scalable solutions and React for intuitive user interfaces. My contributions enhanced performance, maintained code quality, and fostered a collaborative team environment, driving project success. I also implemented software QA testing to ensure reliability of UI components and a consistent user experience.",
-    role: "Full-stack Developer & QA Tester",
+    text: "I contributed to the development of dynamic web & mobile application, utilizing Node.js for scalable solutions, React for intuitive user interfaces, & React Native for mobile development. My contributions enhanced performance, maintained code quality, and fostered a collaborative team environment, driving project success. I also implemented software QA testing to ensure reliability of UI components and a consistent user experience.",
+    role: "Full-stack Developer & QA Engineer",
     skills:
-      "React, Node.js, Express, MongoDB, Redux, Tailwind CSS, Cypress, Postman, k6, Lighthouse, Linear, Trello",
+      "React, Node.js, Express, MongoDB, Redux, Tailwind CSS, Cypress, Postman, k6, Lighthouse, Linear, Trello, React Native",
     date: "Sep 2023 – Aug 2024",
     employmentType: "Full-time",
     locationType: "Remote",

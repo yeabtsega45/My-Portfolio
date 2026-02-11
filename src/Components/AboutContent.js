@@ -27,6 +27,10 @@ function AboutContent() {
             Cypress, Postman, k6, Lighthouse, Linear, Trello.
           </p>
           <p>
+            <b>Mobile Development: </b>
+            React Native CLI, Expo, NativeWind, AsyncStorage, React Navigation, Expo Router, EAS Build, Android Studio, Google Play, App Store.
+          </p>
+          <p>
             <b>Tools & Methods: </b>
             Git, GitHub, Netlify, Render, Heroku, cPanel, Mobile/Responsive
             Development, Chrome Dev Tools.
