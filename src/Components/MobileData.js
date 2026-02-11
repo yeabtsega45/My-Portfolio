@@ -1,6 +1,6 @@
 import pro1 from "../assets/Ezra Android.jpg";
-import pro2 from "../assets/Ezra Android.jpg";
-import pro3 from "../assets/Ezra Android.jpg";
+import pro2 from "../assets/KB Outfit.png";
+import pro3 from "../assets/Ella Tech.png";
 
 const MobileData = [
   {
@@ -14,7 +14,7 @@ const MobileData = [
   {
     imgsrc: pro2,
     title: "KB Outfit",
-    text: "E-commerce application for seamless shopping experience, built with React Native CLI.",
+    text: "E-commerce application for seamless shopping, built with React Native CLI.",
     android: "https://github.com/yeabtsega45/outfit-ecommerce-mobile-app--react-native/releases/tag/v1.0.0",
     iOS: "",
     source: "https://github.com/yeabtsega45/outfit-ecommerce-mobile-app--react-native",
@@ -23,7 +23,7 @@ const MobileData = [
     imgsrc: pro3,
     title: "Ella Tech",
     text: "A product management mobile app built with Expo and NativeWind.",
-    android: "",
+    android: "https://expo.dev/artifacts/eas/mT1rwu3SL676bBd1d2aJ5b.apk",
     iOS: "",
     source: "https://github.com/yeabtsega45/ellatech-expo-app--mobile",
   }
